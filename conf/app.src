@@ -1,5 +1,5 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://github.com/jelhan/croodle/releases/download/v0.6.2/croodle-v0.6.2.tar.gz
+SOURCE_SUM=baa16b5ced06851f4f87b63c3ad94938d0bf4e3159e2569715841a89cdf55314
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
