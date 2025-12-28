@@ -4,7 +4,6 @@
 # IMPORT GENERIC HELPERS
 #=================================================
 
-source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -32,29 +31,6 @@ ynh_config_add_phpfpm
 
 # Create a dedicated NGINX config using the conf/nginx.conf template
 ynh_config_add_nginx
-
-# Create a dedicated systemd config
-#ynh_config_add_systemd
-
-#yunohost service add "$app" --description="A short description of the app" --log="/var/log/$app/$app.log"
-
-#=================================================
-# INSTALL CROODLE
-#=================================================
-#ynh_script_progression "Installing $app..."
-
-#pushd $install_dir
-#    ynh_hide_warnings pnpm install
-#    ynh_hide_warnings pnpm run build
-#popd
-
-#=================================================
-# START SYSTEMD SERVICE
-#=================================================
-#ynh_script_progression "Starting $app's systemd service..."
-
-# Start a systemd service
-#ynh_systemctl --service="$app" --action="start"
 
 #=================================================
 # END OF SCRIPT

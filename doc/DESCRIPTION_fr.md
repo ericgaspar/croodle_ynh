@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+Croodle est une application web cryptée de bout en bout permettant de planifier un rendez-vous ou de réaliser un sondage sur n'importe quel sujet. Toutes les données telles que le titre, la description, le nombre et les libellés des options, les réponses disponibles, les noms des utilisateurs et leurs choix sont cryptées/décryptées dans le navigateur à l'aide d'un cryptage AES 256 bits puissant.
