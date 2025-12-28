@@ -8,13 +8,6 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
-# INSTALL DEPENDENCIES
-#=================================================
-ynh_script_progression "Installing dependencies..."
-
-ynh_hide_warnings corepack enable && corepack prepare pnpm@latest --activate
-
-#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Setting up source files..."
@@ -25,9 +18,9 @@ ynh_setup_source --dest_dir="$install_dir"
 #=================================================
 # APP INITIAL CONFIGURATION
 #=================================================
-#ynh_script_progression "Adding $app's configuration files..."
+ynh_script_progression "Adding $app's configuration files..."
 
-#ynh_config_add --template="config.php" --destination="$install_dir/api/config.php"
+ynh_config_add --template="config.php" --destination="$install_dir/api/config.php"
 
 #=================================================
 # SYSTEM CONFIGURATION
