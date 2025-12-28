@@ -5,7 +5,7 @@ packaging_format = 2
 id = "croodle"
 name = "croodle"
 description.en = "web application to schedule a date or to do a poll on a general topics"
-description.fr = "Application web permettant de fixer une date ou de réaliser un sondage sur des sujets généraux."
+description.fr = "Application web permettant de fixer une date ou de réaliser un sondage sur des sujets généraux"
 
 version = "0.7.0~ynh1"
 
